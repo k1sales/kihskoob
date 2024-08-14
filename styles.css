@@ -1,0 +1,66 @@
+body {
+    color:#2a3263;
+    background:#d3def5;
+    margin: 0px;
+    font-family: "Libre Bodoni", serif;
+    margin-bottom: 160px;
+
+
+
+    header{
+        color:#64b0c7;
+        border-bottom: solid 2px #3b99d8;
+        margin: 20px; 
+    }
+
+}
+ 
+.chamada{
+    background: #8eb3ca;
+    padding-bottom: 70px;
+    padding-top: 90px;
+    display: flex;
+    justify-content: center;
+    padding-left: 50px;
+    padding-right: 120px;
+}
+
+.chamada-texto {
+    margin-right: 50px;
+
+}
+
+h1 {
+    font-size: 60px;
+}
+
+
+img{
+    height: 180px;
+}
+
+.categoriasdelivros{
+    display: flex;
+    overflow-x: auto;
+    gap:10px;
+}
+
+.categorias {
+    font-size:30px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+
+}
+
+.categoriasdelivros img{
+    opacity: 0.6;
+    height: 200px;
+}
+
+.categoriasdelivros img:hover{
+    opacity: 1.0;
+    border: 5px solid #213758;
+} 
+
